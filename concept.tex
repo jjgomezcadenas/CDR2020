@@ -1,0 +1,43 @@
+\begin{frame}
+\frametitle{A new concept for HD}
+
+A possible design for HD would be:
+\begin{enumerate}
+\item A symmetric detector, of fiducial diameter \SI{250}{cm} and fiducial length \SI{250}{cm}, with drift length of \SI{125}{cm}.
+\item Energy and \tz\ measured by a BFD and two AFDs. 
+\item Tracking planes of similar design to those developed for \New\ and \Next. Small SiPMs (\SI{1 x 1}{mm^2}) at a pitch optimised for topology reconstruction (which in turn depends on diffusion, pitch and EL gap). 
+\item Cool gas, with an operating temperature around \SI{-20}{\celsius}. Resolution expected to be OK at such temperature (LA measurements) and good gas stability. 
+\item Investigate if electronics for tracking and energy can be the same (dynamic range). All electronics located behind copper shield. 
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{What about PMTs?}
+
+\blt\ PMTs could be used to read out the WOLFs instead of SiPMs.  
+
+\blt\ Fibres could be bundled to PMTs of suitable size (\eg \SI{50 x 50}{mm^2}), which could be held in individual pressure-resistant cans.
+
+\blt The PMTs would be located behind the copper shielding, suppressing their radioactive budget. 
+
+\blt\ This solution could minimise the number of channels and permit warm operation, but the challenges associated to coupling the fibres to PMTs, shielding and pressure-resistant vessels are significant.
+
+\blt Furthermore, the lower QE of PMTs and possibly some losses associated to fibre bundling will result in significant less photoelectrons recorded for \sone. Thus, detection of Krypton may be difficult. 
+
+\blt\ Alternative (pressure-resistant, radiopure) sensors, like the abalones could be another alternative (but still immature). 
+\end{frame}
+
+\begin{frame}
+\begin{table}
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Scint phot, Kr, PMTs QE = 20 \%    & \num{8.12e+00} \\
+Scint phot, \Qbb, PMTs QE = 20 \%  & \num{4.75e+02} \\
+EL phot, Kr, PMTs QE = 20 \%   & \num{1.84e+04} \\
+EL phot, \Qbb, PMTs QE = 20 \%   &  \num{4.25e+05} \\
+ \hline
+\end{tabular}
+\end{center}
+\end{table}%
+\end{frame}
